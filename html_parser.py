@@ -1,8 +1,10 @@
 # coding:utf8
 
-from py_version import py_version
-from bs4 import BeautifulSoup
 import re
+
+from bs4 import BeautifulSoup
+
+from baike_crawler.py_version import py_version
 
 if py_version == 3:
     from urllib import parse as urlparse
