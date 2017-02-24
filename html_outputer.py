@@ -12,7 +12,6 @@ class HtmlOutputer(object):
 
     def output_html(self):
         with open('output.html', 'w', encoding='utf-8') as fout:
-
             fout.write('<html>\n')
             fout.write('<meta charset=\'utf-8\'>\n')
             fout.write('<body>\n')

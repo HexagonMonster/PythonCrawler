@@ -1,3 +1,5 @@
+# coding:utf8
+
 from baike_crawler import html_downloader
 from baike_crawler import html_outputer
 from baike_crawler import html_parser

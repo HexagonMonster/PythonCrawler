@@ -1,5 +1,7 @@
+# coding:utf8
+
 from py_version import py_version
-import socket
+
 if py_version == 3:
     from urllib import request as urllib
 else:
